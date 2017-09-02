@@ -17,7 +17,7 @@ Under construction.
 Without posts yet.
 {% endfor %}
 
-subscribe [via RSS]({{ "/feed.xml" | prepend: site.baseurl }})
+Subscribe [via RSS]({{ "/feed.xml" | prepend: site.baseurl }}).
 
 ### Markdown
 
