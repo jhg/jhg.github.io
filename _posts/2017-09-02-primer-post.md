@@ -3,4 +3,4 @@ lang: es
 ref: 0
 layout: post
 ---
-This is the first post with Jekyll in [GitHub](https://github.com).
+Este es el primer post con Jekyll en [GitHub](https://github.com).
