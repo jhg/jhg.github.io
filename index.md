@@ -1,6 +1,21 @@
+---
+layout: default
+ref: index
+lang: en
+---
+
 ## Welcome to JHG Page
 
 Under construction.
+
+## Posts
+
+{% assign posts=site.posts | where:"lang", page.lang %}
+{% for post in posts %}
+### [{{ post.title }}]({{ post.url | prepend: site.baseurl }})
+{% endfor %}
+
+subscribe [via RSS]({{ "/feed.xml" | prepend: site.baseurl }})
 
 ### Markdown
 
