@@ -7,15 +7,19 @@ layout: default
 {% include link-lang.html href=postHref text=post.lang lang=post.lang %}
 {% endfor %}
 
-{% avatar jhg %}
-
-<article lang="page.lang">
+<article lang="page.lang" itemprop="blogPost" itemscope="itemscope" itemtype="http://schema.org/BlogPosting">
   <header>
-    <h1>
+    <h1 itemprop="name headline">
       {{ page.title }}
     </h1>
+    {% avatar jhg %}
+    <p itemprop="publisher author">
+      Jesús Hernández Gormaz
+    </p>
   </header>
-  {{ content }}
+  <div itemprop="description postBody">
+    {{ content }}
+  </div>
 </article>
 
 <div id="disqus_thread">

@@ -13,6 +13,7 @@ Under construction.
 {% for post in posts %}
 ### [{{ post.title }}]({{ post.url | prepend: site.url }})
 {{ post.excerpt }}
+[Read more]({{ post.url | prepend: site.url }})
 
 {% else %}
 Without posts yet.
