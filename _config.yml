@@ -12,3 +12,5 @@ plugins:
 titles_from_headings:
   strip_title: true
 permalink: /:categories/:year/:month/:day/:slug.html
+disqus:
+  shortname: 0jesushg
