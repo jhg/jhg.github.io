@@ -3,9 +3,9 @@ layout: default
 ref: index
 lang: en
 ---
-## Welcome to JHG Page
+## Migrating the blog
 
-Under construction.
+You're welcome, I'm sorry because the blog is been migrated.
 
 ## Posts
 
