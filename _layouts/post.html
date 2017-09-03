@@ -4,7 +4,30 @@ layout: default
 <h1>{{ page.title }}</h1>
 {% assign posts=site.posts | where:"ref", page.ref | where_exp:"post", "post.lang != page.lang" | sort: 'lang' %}
 {% for post in posts %}
-{% include link-lang.html href=post.url | prepend: site.baseurl text=post.lang lang=post.lang %}
+{% include link-lang.html href=post.url | prepend: site.url text=post.lang lang=post.lang %}
 {% endfor %}
 
+{% avatar jhg %}
+
 {{ content }}
+
+<div id="disqus_thread">
+</div>
+<script>
+var disqus_config = function () {
+  this.page.url = "{{ page.url | prepend: site.url }}";
+  this.page.identifier = "{{ page.ref }}";
+  this.page.title = "{{ page.title }}";
+};
+/*(function() {
+var d = document, s = d.createElement('script');
+s.src = 'https://0jesushg.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();*/
+</script>
+<noscript>
+  Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a>
+</noscript>
+
+<script id="dsq-count-scr" src="//0jesushg.disqus.com/count.js" async></script>
