@@ -1,7 +1,6 @@
 ---
 layout: default
 ---
-<h1>{{ page.title }}</h1>
 {% assign posts=site.posts | where:"ref", page.ref | where_exp:"post", "post.lang != page.lang" | sort: 'lang' %}
 {% for post in posts %}
 {% assign postHref=post.url | prepend: site.url %}
@@ -10,7 +9,14 @@ layout: default
 
 {% avatar jhg %}
 
-{{ content }}
+<article lang="page.lang">
+  <header>
+    <h1>
+      {{ page.title }}
+    </h1>
+  </header>
+  {{ content }}
+</article>
 
 <div id="disqus_thread">
 </div>
