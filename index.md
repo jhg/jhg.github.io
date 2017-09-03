@@ -7,7 +7,7 @@ lang: en
 
 Under construction.
 
-## {{site.github.repository_name}}:~ \# Posts
+## Posts
 
 {% assign posts=site.posts | where:"lang", page.lang %}
 {% for post in posts %}
@@ -18,6 +18,3 @@ Under construction.
 {% else %}
 Without posts yet.
 {% endfor %}
-
-
-Subscribe [via RSS]({{ "/feed.xml" | prepend: site.url }}).
