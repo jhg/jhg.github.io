@@ -1,12 +1,10 @@
-theme: jekyll-theme-hacker
-gems:
+plugins:
   - jekyll-feed
   - jekyll-relative-links
   - jemoji
   - jekyll-optional-front-matter
   - jekyll-titles-from-headings
   - jekyll-avatar
-plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
 titles_from_headings:
