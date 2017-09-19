@@ -1,11 +1,11 @@
 ---
 layout: page
-lang: en
+lang: es
 ref: comment-policy
 ---
-## Comment policy
+## Politica de comentarios
 
-Keep in mind this:
+Recuerda esto:
  - Be polite and stay on topic.
  - No self-promotion.
  - Don’t post personal information.

@@ -1,0 +1,10 @@
+---
+layout: default
+---
+{% assign pages=site.pages | where:"ref", page.ref | where_exp:"translated-page", "translated-page.lang != page.lang" | sort: 'lang' %}
+{% for page in pages %}
+{% assign pageHref=page.url | prepend: site.url %}
+{% include link-lang.html href=pageHref text=page.lang lang=page.lang %}
+{% endfor %}
+
+{{ content }}
