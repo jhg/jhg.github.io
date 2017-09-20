@@ -2,9 +2,8 @@
 layout: page
 lang: es
 ref: index
+title: Blog de JHG
 ---
-## {{ site.title | default: site.github.repository_name }}
-
 ## Migrando el blog
 
 Bienvenido, lo siento pero el blog esta siendo migrado.

@@ -2,9 +2,8 @@
 layout: page
 lang: en
 ref: index
+title: JHG's Blog
 ---
-## {{ site.title | default: site.github.repository_name }}
-
 ## Migrating the blog
 
 You're welcome, I'm sorry because the blog is been migrated.
