@@ -1,0 +1,6 @@
+{% assign post=site.posts | where:"lang", page.lang | where:"ref", include.ref | first %}
+{% if post %}
+  <a href="{{ post.url | prepend: site.url }}"{% if include.class %} class="{{ include.class }}"{% endif %}>{{ post.title }}</a>
+{% else %}
+  {{ include.text-else | default:"*broken link*" }}
+{% endif %}

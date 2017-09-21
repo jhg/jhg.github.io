@@ -2,7 +2,7 @@
 layout: page
 lang: es
 ref: index
-title: Blog de JHG
+title: Inicio
 ---
 ## Migrando el blog
 
