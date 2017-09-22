@@ -6,7 +6,7 @@ title: Home
 ---
 ## Migrating the blog
 
-You're welcome, I'm sorry because the blog is been migrated.
+You're welcome, I'm sorry because the blog is being migrated.
 
 Before I had a blog in Blogger wrote only in Spanish, but now I will use Jekyll in GitHub Pages to write a blog in more languages besides Spanish.
 
