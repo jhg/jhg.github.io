@@ -316,3 +316,31 @@ a {
 .cf {
   zoom:1;
 }
+
+img.avatar {
+  display: block;
+  border-radius: 50%;
+    margin: 5px;
+  float: left;
+  clear: left;
+}
+
+img.avatar-small {
+  margin: 0 0 0 10px;
+}
+
+img.avatar + * {
+  min-height: 75px;
+  margin: 0 0 20px 100px;
+}
+
+img.avatar.avatar-small + * {
+  min-height: 15px;
+  margin: 0 0 15px 15px;
+}
+
+aside.other-languages {
+  position: absolute;
+  right: 2em;
+  top: 10.5em
+}

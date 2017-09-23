@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-<aside>
+<aside class="other-languages">
   {% assign posts=site.posts | where:"ref", page.ref | where_exp:"post", "post.lang != page.lang" | sort: 'lang' %}
   {% for post in posts %}
   {% assign post-href=post.url | prepend: site.url %}
@@ -15,12 +15,14 @@ layout: default
     <h1 itemprop="name headline">
       {{ page.title }}
     </h1>
-    <p>
-      <span itemprop="publisher author">
-        Jesús Hernández Gormaz
-      </span>
-      {% avatar jhg %}
-    </p>
+    {%- for author in page.authors -%}
+      <p>
+        {%- avatar {{author.avatar}} -%}
+        <span itemprop="publisher author">
+          {{ author.name }}
+        </span>
+      </p>
+    {%- endfor -%}
   </header>
   <div itemprop="description postBody">
     {{ content }}
