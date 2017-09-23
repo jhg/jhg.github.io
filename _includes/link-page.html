@@ -1,6 +1,6 @@
-{% assign linked-page=site.pages | where:"lang", page.lang | where:"ref", include.ref | first %}
-{% if linked-page %}
+{%- assign linked-page=site.pages | where:"lang", page.lang | where:"ref", include.ref | first -%}
+{%- if linked-page -%}
   <a href="{{ linked-page.url | prepend: site.url }}"{% if include.class %} class="{{ include.class }}"{% endif %}>{{ linked-page.title }}</a>
-{% else %}
-  {{ include.text-else | default:"*broken link*" }}
-{% endif %}
+{%- else -%}
+  <b>{{ include.text-else | default:"broken link" }}</b>
+{%- endif -%}
