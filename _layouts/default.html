@@ -29,23 +29,25 @@
         <h1>{{ site.title | default: site.github.repository_name }}</h1>
         <h2>{{ site.description | default: site.github.project_tagline }}</h2>
       </div>
+
+      <nav class="container">
+        {% for nav-page-ref in site.nav %}
+          {% include link-page.html ref=nav-page-ref class="btn btn-primary" %}
+        {% endfor %}
+        <a href="https://es.linkedin.com/in/jesushernandezgormaz" class="btn btn-primary">LinkedIn</a>
+        <a href="{{ site.github.owner_url }}" class="btn btn-github"><span class="icon"></span>GitHub</a>
+        {% if site.show_downloads %}
+          <a href="{{ site.github.zip_url }}" class="btn">Download as .zip</a>
+          <a href="{{ site.github.tar_url }}" class="btn">Download as .tar.gz</a>
+        {% endif %}
+      </nav>
     </header>
 
-    <nav class="container">
-      {% if site.show_downloads %}
-        <a href="{{ site.github.zip_url }}" class="btn">Download as .zip</a>
-        <a href="{{ site.github.tar_url }}" class="btn">Download as .tar.gz</a>
-      {% endif %}
-      {% include link-page.html ref="index" class="btn btn-primary" %}
-      <a href="https://es.linkedin.com/in/jesushernandezgormaz" class="btn btn-primary">LinkedIn</a>
-      <a href="{{ site.github.owner_url }}" class="btn btn-github"><span class="icon"></span>GitHub</a>
-    </nav>
-
-    <div class="container">
+    <main class="container">
       <section id="main_content">
         {{ content }}
       </section>
-    </div>
+    </main>
 
     <footer>
       <a href="{{ "/feed.xml" | prepend: site.url }}">RSS</a> | {% include link-page.html ref="comment-policy" %}

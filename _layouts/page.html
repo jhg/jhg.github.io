@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-<aside>
+<aside class="other-languages">
   {% assign pages=site.pages | where:"ref", page.ref | where_exp:"translated-page", "translated-page.lang != page.lang" | sort: 'lang' %}
   {% for translated-page in pages %}
   {% assign translated-page-href=translated-page.url | prepend: site.url %}
