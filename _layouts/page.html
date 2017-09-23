@@ -1,10 +1,13 @@
 ---
 layout: default
 ---
-{% assign pages=site.pages | where:"ref", page.ref | where_exp:"translated-page", "translated-page.lang != page.lang" | sort: 'lang' %}
-{% for page in pages %}
-{% assign pageHref=page.url | prepend: site.url %}
-{% include link-lang.html href=pageHref text=page.lang lang=page.lang %}
-{% endfor %}
+<aside>
+  {% assign pages=site.pages | where:"ref", page.ref | where_exp:"translated-page", "translated-page.lang != page.lang" | sort: 'lang' %}
+  {% for translated-page in pages %}
+  {% assign translated-page-href=translated-page.url | prepend: site.url %}
+  {% assign flag-text=translated-page.lang | replace: "en", "uk" | prepend: ":" | append: ":" %}
+  {% include link-lang.html href=translated-page-href text=flag-text lang=translated-page.lang %}
+  {% endfor %}
+</aside>
 
 {{ content }}

@@ -1,11 +1,14 @@
 ---
 layout: default
 ---
-{% assign posts=site.posts | where:"ref", page.ref | where_exp:"post", "post.lang != page.lang" | sort: 'lang' %}
-{% for post in posts %}
-{% assign postHref=post.url | prepend: site.url %}
-{% include link-lang.html href=postHref text=post.lang lang=post.lang %}
-{% endfor %}
+<aside>
+  {% assign posts=site.posts | where:"ref", page.ref | where_exp:"post", "post.lang != page.lang" | sort: 'lang' %}
+  {% for post in posts %}
+  {% assign post-href=post.url | prepend: site.url %}
+  {% assign flag-text=post.lang | replace: "en", "uk" | prepend: ":" | append: ":" %}
+  {% include link-lang.html href=post-href text=flag-text lang=post.lang %}
+  {% endfor %}
+</aside>
 
 <article lang="page.lang" itemprop="blogPost" itemscope="itemscope" itemtype="http://schema.org/BlogPosting">
   <header>
