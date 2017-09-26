@@ -10,4 +10,9 @@ layout: default
   {% endfor %}
 </aside>
 
+{%- if page.about -%}
+  {%- avatar {{page.about.avatar}} size=75 -%}
+  <strong>{{ page.about.name }}</strong><br />
+{%- endif -%}
+
 {{ content }}
