@@ -7,6 +7,7 @@ about:
   avatar: jhg
 ---
 ## Sobre mí
+
 Mi nombre es Jesús. Me gusta la informática en general, hacking, seguridad,
  programar; pero también la electrónica, criptografía, matemáticas, filosofía,
  ciencia, etc. El conocimiento, en resumen. Algo parecido a mi CV lo puedes
