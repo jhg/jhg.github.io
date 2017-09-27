@@ -13,5 +13,7 @@ Mi nombre es Jesús. Me gusta la informática en general, hacking, seguridad,
  ciencia, etc. El conocimiento, en resumen. Algo parecido a mi CV lo puedes
  ver en [mi perfil de LinkedIn][linkedin-profile].
 
+Tengo [mis repositorios en GitHub][github-profile].
 
   [linkedin-profile]: https://www.linkedin.com/in/jesushernandezgormaz/
+  [github-profile]: https://www.github.com/jhg/

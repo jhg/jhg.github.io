@@ -13,5 +13,7 @@ My name is Jesus. I like computers, hacking, security, to program;
  The knowledge, in summary. Something like my CV is
  [my LinkedIn profile][linkedin-profile].
 
+I have [my repositories in GitHub][github-profile].
 
   [linkedin-profile]: https://www.linkedin.com/in/jesushernandezgormaz/
+  [github-profile]: https://www.github.com/jhg/
