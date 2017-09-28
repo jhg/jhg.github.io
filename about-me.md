@@ -8,12 +8,14 @@ about:
 ---
 ## About me
 
-My name is Jesus. I like computers, hacking, security, to program;
- and also the electronic, cryptography, mathematics, philosophy, science, etc.
- The knowledge, in summary. Something like my CV is
- [my LinkedIn profile][linkedin-profile].
+My name is Jesus. Something like my CV is
+  [my LinkedIn profile][linkedin-profile].
+  I have [my repositories in GitHub][github-profile].
 
-I have [my repositories in GitHub][github-profile].
+I like computers, hacking, security, to program;
+  and also the electronic, cryptography, mathematics,
+  philosophy, science, etc. In summary: the knowledge.
+
 
   [linkedin-profile]: https://www.linkedin.com/in/jesushernandezgormaz/
   [github-profile]: https://www.github.com/jhg/
