@@ -3,7 +3,10 @@
 {% assign posts=site.posts | where:"lang", page.lang %}
 {% for post in posts %}
 ## {{ post.title }}
-{%- if post.miniature -%}
+
+*{{ post.categories | join:", " }}*
+
+{% if post.miniature %}
   ![preview]({{ site.url }}{{ post.miniature }})
 {% endif %}
 {{ post.excerpt }}
