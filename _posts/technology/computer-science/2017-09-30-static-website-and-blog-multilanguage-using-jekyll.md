@@ -2,11 +2,14 @@
 layout: post
 lang: en
 ref: 0
+title: Website multi-language with Jekyll
 miniature: /assets/posts/0/miniature.jpg
+categories:
+  - technology
+  - computer-science
 authors:
   - name: Jesús Hernández Gormaz
     avatar: jhg
-title: Website multi-language with Jekyll
 ---
 **The reasons to use [Jekyll][jekyll] are**, in sumary: **it does what I need**
   at this time and **it's fast to implement**. The **multi-language support**

@@ -2,11 +2,14 @@
 layout: post
 lang: es
 ref: 0
+title: Sitio web multi-idioma con Jekyll
 miniature: /assets/posts/0/miniature.jpg
+categories:
+  - technology
+  - computer-science
 authors:
   - name: Jesús Hernández Gormaz
     avatar: jhg
-title: Sitio web multi-idioma con Jekyll
 ---
 **Los motivos para usar [Jekyll][jekyll] son** diversos pero se puede resumir
   en: **hace lo que necesito** en este momento y **el tiempo requerido es
