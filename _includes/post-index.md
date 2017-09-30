@@ -1,8 +1,8 @@
-## {{ include.header }}
+# {{ include.header }}
 
 {% assign posts=site.posts | where:"lang", page.lang %}
 {% for post in posts %}
-### [{{ post.title }}]({{ post.url | prepend: site.url }})
+## {{ post.title }}
 {%- if post.miniature -%}
   ![preview]({{ site.url }}{{ post.miniature }})
 {% endif %}
