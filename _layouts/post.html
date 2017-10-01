@@ -25,6 +25,7 @@ layout: default
     {%- endfor -%}
     <br />
     <p>
+      {{ page.date | date_to_string }}<br />
       <em>
         {{ page.categories | join:", " }}
       </em>

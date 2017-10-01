@@ -4,6 +4,8 @@
 {% for post in posts %}
 ## {{ post.title }}
 
+{{ post.date | date_to_string }}
+
 *{{ post.categories | join:", " }}*
 
 {% if post.miniature %}
