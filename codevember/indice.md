@@ -11,7 +11,7 @@ Este es el índice de mis experimentos creativos para [Codevember][codevember].
 
 ## 1
 
-*pronto estará el primer día aquí*
+Animación hover *[Flip3D](/codevember/2017/01/index.html)* solo con CSS. Hice una transición como esta hace un tiempo pero la perdí, ahora la he realizado de nuevo para compartirla aquí.
 
 
   [codevember]: http://codevember.xyz/about
