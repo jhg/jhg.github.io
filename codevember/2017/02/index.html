@@ -1,0 +1,80 @@
+<html>
+  <head>
+    <title></title>
+    <meta content="">
+    <style>
+    img.cake {
+      position: absolute;
+      top: calc(50% - 12.5em);
+      left: calc(50% - 12.5em);
+      width: 25em;
+      height: 25em;
+      transition: top 2s, left 2s;
+      z-index: 0;
+    }
+    .detector {
+      width: 20%;
+      height: 20%;
+      position: absolute;
+      z-index: 1;
+    }
+    .top {
+      top: 30%;
+    }
+    .left {
+      left: 30%;
+    }
+    .bottom {
+      top: 50%;
+    }
+    .right {
+      left: 50%;
+    }
+    .detector.top:hover ~ img.cake {
+    top: calc(70% - 12.5em);
+    }
+    .detector.left:hover ~ img.cake {
+    left: calc(70% - 12.5em);
+    }
+    .detector.bottom:hover ~ img.cake {
+    top: calc(30% - 12.5em);
+    }
+    .detector.right:hover ~ img.cake {
+    left: calc(30% - 12.5em);
+    }
+    header, footer {
+      text-align: center;
+      color: black;
+    }
+    a {
+      background-color: white;
+    }
+    body {
+      background-image: url('mouse.jpg');
+      background-repeat: no-repeat;
+      background-position: left bottom;
+      background-size: 40%;
+    }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Codevember 2017/02 Cake</h1>
+      <h2>Do you want a cake? Try to cake it!</h2>
+    </header>
+    <main>
+      <div class="detector top left"></div>
+      <div class="detector top right"></div>
+      <div class="detector bottom left"></div>
+      <div class="detector bottom right"></div>
+      <img class="cake" src="cake.svg" />
+    </main>
+    <footer>
+      <p>
+        <a href="//jhg.github.io/">
+          Jesús Hernández Gormaz
+        </a>
+      </p>
+    </footer>
+  </body>
+</html>
