@@ -15,7 +15,7 @@ Hover *[Flip3D](/codevember/2017/01/index.html)* transition only with CSS. I mad
 
 ## 2
 
-*[Catch the Cake](/codevember/2017/02/index.html)*
+*[Catch the Cake](/codevember/2017/02/index.html)* only CSS, without JS.
 
 
   [codevember]: http://codevember.xyz/about

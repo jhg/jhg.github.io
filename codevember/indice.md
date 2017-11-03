@@ -15,7 +15,7 @@ Animación hover *[Flip3D](/codevember/2017/01/index.html)* solo con CSS. Hice u
 
 ## 2
 
-*[Captura la tarta](/codevember/2017/02/index.html)*
+*[Captura la tarta](/codevember/2017/02/index.html)* solo con CSS, sin JS.
 
 
   [codevember]: http://codevember.xyz/about
