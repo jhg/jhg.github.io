@@ -1,0 +1,471 @@
+<html>
+  <head>
+    <title></title>
+    <meta content="">
+    <style>
+      body {
+        cursor: url('sword.png'), auto;
+      }
+      div {
+        position: absolute;
+        width: 8em;
+        height: 8em;
+        background-color: brown;
+        top: calc(50% - 4em);
+        left: calc(50% - 4em);
+        z-index: 1;
+        background-image: url('sword.png');
+        background-repeat: no-repeat;
+        background-size: 225% 225%;
+        background-position: center;
+      }
+      div:nth-child(5n+0) {
+        background-color: pink;
+      }
+      div:nth-child(5n+0) {
+        background-color: violet;
+      }
+      div:nth-child(3n+0) {
+        background-color: purple;
+      }
+      div:nth-child(2n+0) {
+        top: calc(50% - 5em - 4em);
+        background-color: red;
+        background-position: left top;
+      }
+      div:nth-child(3n+0) {
+        top: calc(50% + 5em - 4em);
+        background-position: right bottom;
+      }
+      div:nth-child(5n+0) {
+        left: calc(50% + 5em - 4em);
+      }
+      div:nth-child(7n+0) {
+        left: calc(50% - 5em - 4em);
+      }
+      div:nth-child(8n+0) {
+        background-image: none;
+      }
+      div:nth-child(9n+0) {
+        background-image: none;
+      }
+      div:nth-child(10n+0) {
+        background-image: none;
+      }
+      @keyframes swordmove {
+        0% {
+          transform: rotateZ(0deg) rotateX(0deg) rotateY(0deg);
+        }
+        25% {
+          transform: rotateZ(90deg) rotateX(-45deg) rotateY(45deg);
+        }
+        50% {
+          transform: rotateZ(180deg) rotateX(45deg) rotateY(-45deg);
+        }
+        75% {
+          transform: rotateZ(270deg) rotateX(0deg) rotateY(0deg);
+        }
+        100% {
+          transform: rotateZ(360deg) rotateX(0deg) rotateY(0deg);
+        }
+      }
+      div {
+        animation-name: swordmove;
+        animation-duration: 120s;
+        animation-delay: 1s;
+        animation-iteration-count: infinite;
+      }
+      div > div {
+        animation-name: swordmove;
+        animation-duration: 15s;
+        animation-delay: 61s;
+        animation-iteration-count: infinite;
+      }
+      body {
+        perspective: 50em;
+        background-color: black;
+      }
+      header, footer {
+        text-align: center;
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Codevember 2017/05 Sword</h1>
+      <h2>Small puzzle</h2>
+    </header>
+    <footer>
+      <p>
+        <a href="//jhg.github.io/">
+          Jesús Hernández Gormaz
+        </a>
+      </p>
+    </footer>
+    <div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+      <div onclick="this.parentNode.removeChild(this)"></div>
+    </div>
+  </body>
+</html>

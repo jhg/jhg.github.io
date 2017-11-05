@@ -25,5 +25,9 @@ Animación hover *[Flip3D](/codevember/2017/01/index.html)* solo con CSS. Hice u
 
 *[Sapphire On Rails](/codevember/2017/04/index.html)* solo CSS, sin JS, animación CSS para hacer un chiste.
 
+## 5
+
+*[Pequeño puzzle](/codevember/2017/05/index.html)* sobre la espada.
+
 
   [codevember]: http://codevember.xyz/about

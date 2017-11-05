@@ -25,5 +25,9 @@ Hover *[Flip3D](/codevember/2017/01/index.html)* transition only with CSS. I mad
 
 *[Sapphire On Rails](/codevember/2017/04/index.html)* only CSS, without JS, CSS animations to make a joke.
 
+## 5
+
+*[Small puzzle](/codevember/2017/05/index.html)* about the sword.
+
 
   [codevember]: http://codevember.xyz/about
