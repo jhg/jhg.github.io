@@ -29,5 +29,9 @@ Animación hover *[Flip3D](/codevember/2017/01/index.html)* solo con CSS. Hice u
 
 *[Pequeño puzzle](/codevember/2017/05/index.html)* sobre la espada.
 
+## 6
+
+*[El ray](/codevember/2017/06/index.html)* de la tormenta.
+
 
   [codevember]: http://codevember.xyz/about

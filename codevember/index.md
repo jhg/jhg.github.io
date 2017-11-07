@@ -29,5 +29,9 @@ Hover *[Flip3D](/codevember/2017/01/index.html)* transition only with CSS. I mad
 
 *[Small puzzle](/codevember/2017/05/index.html)* about the sword.
 
+## 6
+
+*[The ray](/codevember/2017/05/index.html)* of the storm.
+
 
   [codevember]: http://codevember.xyz/about
