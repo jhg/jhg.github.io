@@ -32,7 +32,7 @@ layout: default
     </p>
   </header>
   <div itemprop="description postBody">
-    <img src="{{ page.miniature }}" />
+    {% if page.miniature %}<img src="{{ page.miniature }}" />{% endif %}
     {{ content }}
   </div>
 </article>
