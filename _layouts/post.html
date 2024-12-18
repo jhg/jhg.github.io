@@ -1,0 +1,30 @@
+---
+layout: default
+---
+
+<article lang="page.lang" itemprop="blogPost" itemscope="itemscope" itemtype="http://schema.org/BlogPosting">
+  <header>
+    <h1 itemprop="name headline">
+      {{ page.title }}
+    </h1>
+    {%- for author in page.authors -%}
+    <p>
+      {%- avatar {{author.avatar}} -%}
+      <span itemprop="publisher author">
+        {{ author.name }}
+      </span>
+    </p>
+    {%- endfor -%}
+    <br />
+    <p>
+      {{ page.date | date_to_string }}<br />
+      <em>
+        {{ page.categories | join:", " }}
+      </em>
+    </p>
+  </header>
+  <div itemprop="description postBody">
+    {% if page.miniature %}<img src="{{ page.miniature }}" />{% endif %}
+    {{ content }}
+  </div>
+</article>
