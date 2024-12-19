@@ -18,21 +18,21 @@ title: Jesus Hernandez site
     <div class="mb-4 md:flex md:space-x-4">
         <div class="md:w-1/2">
             <label for="name" class="block text-white mb-1">Full Name</label>
-            <input name="name" type="text" required class="w-full p-2 rounded text-white border border-gray-600 focus:outline-none focus:border-gray-500">
+            <input if="name" name="name" type="text" required class="w-full p-2 rounded text-white border border-gray-600 focus:outline-none focus:border-gray-500">
         </div>
         <div class="md:w-1/2 mt-4 md:mt-0">
             <label for="email" class="block text-white mb-1">Email</label>
-            <input name="email" type="email" required class="w-full p-2 rounded text-white border border-gray-600 focus:outline-none focus:border-gray-500">
+            <input id="email" name="email" type="email" required class="w-full p-2 rounded text-white border border-gray-600 focus:outline-none focus:border-gray-500">
         </div>
     </div>
 
     <div class="mb-4">
         <label for="subject" class="block text-white mb-1">Subject</label>
-        <input name="subject" type="text" required class="w-full p-2 rounded text-white border border-gray-600 focus:outline-none focus:border-gray-500">
+        <input id="subject" name="subject" type="text" required class="w-full p-2 rounded text-white border border-gray-600 focus:outline-none focus:border-gray-500">
     </div>
     <div class="mb-4">
         <label for="message" class="block text-white mb-1">Message</label>
-        <textarea name="message" required class="w-full p-2 rounded text-white border border-gray-600 focus:outline-none focus:border-gray-500 min-h-[150px]"></textarea>
+        <textarea id="message" name="message" required class="w-full p-2 rounded text-white border border-gray-600 focus:outline-none focus:border-gray-500 min-h-[150px]"></textarea>
     </div>
 
     <button type="submit" class="w-full p-2 rounded bg-gray-500 text-white hover:bg-gray-600">
