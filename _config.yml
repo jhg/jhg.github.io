@@ -28,6 +28,9 @@ nav:
 sass:
   style: compressed
 
+postcss:
+  cache: false
+
 jekyll-minifier:
   preserve_php: false
   remove_spaces_inside_tags: true   # Default: true
