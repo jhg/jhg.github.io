@@ -3,7 +3,7 @@ import { defineConfig } from 'vite';
 import tailwindcss from '@tailwindcss/vite';
 import htmlMinifier from 'vite-plugin-html-minifier';
 import { ViteImageOptimizer } from 'vite-plugin-image-optimizer';
-// import { imageToWebpPlugin } from 'vite-plugin-image-to-webp';
+import { imageToWebpPlugin } from 'vite-plugin-image-to-webp';
 import compression from 'vite-plugin-compression';
 
 export default defineConfig({
@@ -72,12 +72,12 @@ export default defineConfig({
 		}),
 
 		// Automatic conversion to WebP/AVIF - Temporarily disabled
-		// imageToWebpPlugin({
-		// 	imageFormats: ['jpg', 'jpeg', 'png'],
-		// 	webpQuality: { quality: 85 },
-		// 	avifQuality: { quality: 80 },
-		// 	destinationFolder: 'build'
-		// }),
+		imageToWebpPlugin({
+			imageFormats: ['jpg', 'jpeg', 'png'],
+			webpQuality: { quality: 85 },
+			avifQuality: { quality: 80 },
+			destinationFolder: 'build'
+		}),
 
 		compression({
 			algorithm: 'gzip',
