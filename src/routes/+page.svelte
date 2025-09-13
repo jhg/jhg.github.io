@@ -13,8 +13,8 @@
 		"@context": "https://schema.org",
 		"@type": "Person",
 		"name": "Jesus Hernandez",
-		"jobTitle": "Digital Products Creator",
-		"description": "Software developer and business innovator specialized in creating innovative digital solutions",
+		"jobTitle": "Software Developer & Business Innovator",
+		"description": "Software developer, CEO of lenorix, specializing in technology innovation and digital product development",
 		"url": "https://jhg.github.io",
 		"sameAs": [
 			"https://github.com/jhg"
@@ -23,12 +23,14 @@
 			"Software Development",
 			"Digital Products",
 			"Business Innovation",
+			"Technology Innovation",
 			"Web Development",
-			"Technology Solutions"
+			"Technology Solutions",
+			"Business Leadership"
 		],
-		"alumniOf": {
+		"worksFor": {
 			"@type": "Organization",
-			"name": "Technology Industry"
+			"name": "lenorix"
 		}
 	}
 	</script>
@@ -57,29 +59,25 @@
 	<ContactForm />
 </section>
 
-<!-- Invisible content for SEO -->
-<div class="sr-only">
-	<h3>About Jesus Hernandez</h3>
-	<p>
+<!-- About Section - Visible content -->
+<section class="text-center py-8" aria-labelledby="about-heading">
+	<h2 id="about-heading" class="text-2xl font-bold text-white mb-6">About</h2>
+	<p class="text-lg text-gray-200 max-w-3xl mx-auto leading-relaxed mb-8">
 		Experienced digital products creator with expertise in software development,
 		business innovation, and technology solutions. Specializing in creating
 		cutting-edge digital experiences and innovative software solutions.
 	</p>
 
-	<h3>Services</h3>
-	<ul>
-		<li>Digital Product Development</li>
-		<li>Software Architecture</li>
-		<li>Business Innovation Consulting</li>
-		<li>Web Development</li>
-		<li>Technology Strategy</li>
-	</ul>
-
-	<h3>Contact Information</h3>
-	<p>
-		Available for collaboration on innovative projects and technology solutions.
-		Reach out through the contact form above for project inquiries and partnerships.
-	</p>
-</div>
+	<div class="max-w-4xl mx-auto">
+		<h3 class="text-xl font-semibold text-white mb-4">Services</h3>
+		<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 text-gray-200">
+			<div class="p-4 rounded border border-gray-600">Digital Product Development</div>
+			<div class="p-4 rounded border border-gray-600">Software Architecture</div>
+			<div class="p-4 rounded border border-gray-600">Business Innovation Consulting</div>
+			<div class="p-4 rounded border border-gray-600">Web Development</div>
+			<div class="p-4 rounded border border-gray-600">Technology Strategy</div>
+		</div>
+	</div>
+</section>
 
 <!-- All styles now use Tailwind CSS -->
