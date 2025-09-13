@@ -1,5 +1,6 @@
 <script>
 	import ContactForm from '$lib/components/ContactForm.svelte';
+	import heroImage from '$lib/assets/img/wb-jesus-hernandez.jpg';
 </script>
 
 <svelte:head>
@@ -38,14 +39,19 @@
 </svelte:head>
 
 <!-- Hero Section -->
-<section class="text-center py-8 min-h-[200px]" aria-labelledby="main-heading">
+<section class="text-center py-8 min-h-[200px] mt-50 sm:mt-56 md:mt-76 lg:mt-84 landscape:mt-8" aria-labelledby="main-heading">
 	<h1 id="main-heading" class="text-4xl md:text-5xl font-bold text-white mb-4 tracking-tight">
 		Jesus Hernandez
 	</h1>
-	<p class="text-xl text-gray-200 max-w-2xl mx-auto leading-relaxed">
+	<p class="text-xl text-gray-200 max-w-2xl mx-auto leading-relaxed mb-6 mt-20 sm:mt-26 md:mt-30 lg:mt-34 landscape:mt-6">
 		Digital products creator, software developer, and business innovator.
 	</p>
 </section>
+
+<img src={heroImage} alt="Jesus Hernandez in suit - White & Black Portrait taken in Beijing, China"
+     class="fixed top-0 right-0 h-screen z-[-1] object-cover"
+     style="mask: linear-gradient(to left, white 0%, white 52%, transparent 92%);"
+/>
 
 <!-- About Section - Visible content -->
 <section class="py-8" aria-labelledby="about-heading">
