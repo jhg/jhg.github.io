@@ -22,7 +22,8 @@ const config = {
 
 		prerender: {
 			entries: ['*'],
-			handleHttpError: 'warn'
+			handleHttpError: 'warn',
+			origin: 'https://jesushernandez.net'
 		}
 	},
 
