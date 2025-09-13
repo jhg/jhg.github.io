@@ -1,13 +1,10 @@
 <script>
 	import ContactForm from '$lib/components/ContactForm.svelte';
-	import heroImage from '$lib/assets/img/wb-jesus-hernandez.jpg';
 </script>
 
 <svelte:head>
 	<title>Jesus Hernandez - Digital Products Creator</title>
 	<meta name="description" content="Digital products creator, software developer, and business innovator specialized in creating innovative digital solutions." />
-
-	<link rel="preload" href="{heroImage}" as="image" fetchpriority="high" />
 
 	<!-- Structured Data for SEO -->
 	{@html `
@@ -50,10 +47,12 @@
 	</p>
 </section>
 
-<img src={heroImage} alt="Jesus Hernandez in suit - White & Black Portrait taken in Beijing, China"
-     class="fixed top-0 right-0 h-screen z-[-1] object-cover"
-     style="mask: linear-gradient(to left, white 0%, white 52%, transparent 92%);"
-     fetchpriority="high"
+<enhanced:img
+	src="../lib/assets/img/wb-jesus-hernandez.jpg"
+	alt="Jesus Hernandez in suit - White & Black Portrait taken in Beijing, China"
+	class="fixed top-0 right-0 h-screen z-[-1] object-cover"
+	style="mask: linear-gradient(to left, white 0%, white 52%, transparent 92%);"
+	fetchpriority="high"
 />
 
 <!-- About Section - Visible content -->
