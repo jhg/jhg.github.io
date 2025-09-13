@@ -7,6 +7,8 @@
 	<title>Jesus Hernandez - Digital Products Creator</title>
 	<meta name="description" content="Digital products creator, software developer, and business innovator specialized in creating innovative digital solutions." />
 
+	<link rel="preload" href="{heroImage}" as="image" />
+
 	<!-- Structured Data for SEO -->
 	{@html `
 	<script type="application/ld+json">
