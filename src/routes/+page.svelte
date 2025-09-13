@@ -74,7 +74,7 @@
     <h2 id="contact-heading" class="text-center text-2xl font-bold text-white mb-4">
         Contact me
     </h2>
-    <p class="text-lg text-gray-200 max-w-lg mx-auto mb-8">
+    <p class="text-lg text-gray-200 max-w-3xl mx-auto mb-8">
         If you have any questions or would like to collaborate, please fill out the form below.
     </p>
 
