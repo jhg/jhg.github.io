@@ -17,8 +17,8 @@ const config = {
 			base: process.env.NODE_ENV === 'production' ? '' : ''
 		},
 
-		// CSS inline para performance crítica
-		inlineStyleThreshold: 2048,
+		// CSS inline optimization for critical performance
+		inlineStyleThreshold: 4096,
 
 		prerender: {
 			entries: ['*'],
