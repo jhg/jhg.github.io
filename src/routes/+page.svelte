@@ -56,15 +56,15 @@
 		cutting-edge digital experiences and innovative software solutions.
 	</p>
 
-	<div class="text-center max-w-4xl mx-auto">
+	<div class="text-center max-w-3xl mx-auto">
 		<h3 class="text-xl font-semibold text-white mb-4">Services</h3>
-		<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 text-gray-200">
-			<div class="p-4 rounded border border-gray-400">Digital Product Development</div>
-			<div class="p-4 rounded border border-gray-400">Software</div>
-			<div class="p-4 rounded border border-gray-400">Business Innovation Consulting</div>
-			<div class="p-4 rounded border border-gray-400">Technology Strategy</div>
-            <div class="p-4 rounded border border-gray-400">Web</div>
-            <div class="p-4 rounded border border-gray-400">Mobile & Desktop</div>
+		<div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-4 text-gray-200">
+			<div class="p-4 rounded border border-gray-400 flex items-center justify-center">Digital Product Development</div>
+			<div class="p-4 rounded border border-gray-400 flex items-center justify-center">Webs</div>
+            <div class="p-4 rounded border border-gray-400 flex items-center justify-center">Technology Strategy</div>
+			<div class="p-4 rounded border border-gray-400 flex items-center justify-center">Mobile Apps</div>
+            <div class="p-4 rounded border border-gray-400 flex items-center justify-center">LLM API integrations</div>
+            <div class="p-4 rounded border border-gray-400 flex items-center justify-center">Desktop Apps</div>
 		</div>
 	</div>
 </section>
