@@ -48,8 +48,8 @@
 </section>
 
 <!-- Contact Section -->
-<section class="text-center py-8 min-h-[300px]" aria-labelledby="contact-heading">
-	<h2 id="contact-heading" class="text-2xl font-bold text-white mb-4">
+<section class="py-8 min-h-[300px]" aria-labelledby="contact-heading">
+	<h2 id="contact-heading" class="text-center text-2xl font-bold text-white mb-4">
 		Contact me
 	</h2>
 	<p class="text-lg text-gray-200 max-w-lg mx-auto mb-8">
@@ -60,8 +60,8 @@
 </section>
 
 <!-- About Section - Visible content -->
-<section class="text-center py-8" aria-labelledby="about-heading">
-	<h2 id="about-heading" class="text-2xl font-bold text-white mb-6">About</h2>
+<section class="py-8" aria-labelledby="about-heading">
+	<h2 id="about-heading" class="text-center text-2xl font-bold text-white mb-6">About</h2>
 	<p class="text-lg text-gray-200 max-w-3xl mx-auto leading-relaxed mb-8">
 		Experienced digital products creator with expertise in software development,
 		business innovation, and technology solutions. Specializing in creating
@@ -69,7 +69,7 @@
 	</p>
 
 	<div class="max-w-4xl mx-auto">
-		<h3 class="text-xl font-semibold text-white mb-4">Services</h3>
+		<h3 class="text-center text-xl font-semibold text-white mb-4">Services</h3>
 		<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 text-gray-200">
 			<div class="p-4 rounded border border-gray-600">Digital Product Development</div>
 			<div class="p-4 rounded border border-gray-600">Software</div>
