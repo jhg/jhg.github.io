@@ -58,13 +58,13 @@
 
 	<div class="text-center max-w-3xl mx-auto">
 		<h3 class="text-xl font-semibold text-white mb-4">Services</h3>
-		<div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-4 text-gray-200">
+		<div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-2 md:gap-4 lg:gap-5 text-gray-200">
 			<div class="p-4 rounded border border-gray-400 flex items-center justify-center">Digital Product Development</div>
 			<div class="p-4 rounded border border-gray-400 flex items-center justify-center">Webs</div>
             <div class="p-4 rounded border border-gray-400 flex items-center justify-center">Technology Strategy</div>
-			<div class="p-4 rounded border border-gray-400 flex items-center justify-center">Mobile Apps</div>
+			<div class="p-4 rounded border border-gray-400 flex items-center justify-center">Mobile / Desktop Apps</div>
             <div class="p-4 rounded border border-gray-400 flex items-center justify-center">LLM API integrations</div>
-            <div class="p-4 rounded border border-gray-400 flex items-center justify-center">Desktop Apps</div>
+            <div class="p-4 rounded border border-gray-400 flex items-center justify-center">MCP servers</div>
 		</div>
 	</div>
 </section>
