@@ -72,10 +72,11 @@
 		<h3 class="text-xl font-semibold text-white mb-4">Services</h3>
 		<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 text-gray-200">
 			<div class="p-4 rounded border border-gray-600">Digital Product Development</div>
-			<div class="p-4 rounded border border-gray-600">Software Architecture</div>
+			<div class="p-4 rounded border border-gray-600">Software</div>
 			<div class="p-4 rounded border border-gray-600">Business Innovation Consulting</div>
-			<div class="p-4 rounded border border-gray-600">Web Development</div>
 			<div class="p-4 rounded border border-gray-600">Technology Strategy</div>
+            <div class="p-4 rounded border border-gray-600">Web</div>
+            <div class="p-4 rounded border border-gray-600">Mobile & Desktop</div>
 		</div>
 	</div>
 </section>

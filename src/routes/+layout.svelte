@@ -31,8 +31,10 @@
 </svelte:head>
 
 <!-- Layout container using Tailwind -->
-<div class="relative z-10">
-	<main class="max-w-4xl mx-auto px-4 py-8 min-h-screen">
-		{@render children()}
-	</main>
+<div class="bg-black text-white min-h-screen">
+	<div class="relative z-10">
+		<main class="max-w-4xl mx-auto px-4 py-8 min-h-screen">
+			{@render children()}
+		</main>
+	</div>
 </div>
