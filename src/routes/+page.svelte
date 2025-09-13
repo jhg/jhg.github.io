@@ -47,18 +47,6 @@
 	</p>
 </section>
 
-<!-- Contact Section -->
-<section class="py-8 min-h-[300px]" aria-labelledby="contact-heading">
-	<h2 id="contact-heading" class="text-center text-2xl font-bold text-white mb-4">
-		Contact me
-	</h2>
-	<p class="text-lg text-gray-200 max-w-lg mx-auto mb-8">
-		If you have any questions or would like to collaborate, please fill out the form below.
-	</p>
-
-	<ContactForm />
-</section>
-
 <!-- About Section - Visible content -->
 <section class="py-8" aria-labelledby="about-heading">
 	<h2 id="about-heading" class="text-center text-2xl font-bold text-white mb-6">About</h2>
@@ -68,17 +56,27 @@
 		cutting-edge digital experiences and innovative software solutions.
 	</p>
 
-	<div class="max-w-4xl mx-auto">
-		<h3 class="text-center text-xl font-semibold text-white mb-4">Services</h3>
+	<div class="text-center max-w-4xl mx-auto">
+		<h3 class="text-xl font-semibold text-white mb-4">Services</h3>
 		<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 text-gray-200">
-			<div class="p-4 rounded border border-gray-600">Digital Product Development</div>
-			<div class="p-4 rounded border border-gray-600">Software</div>
-			<div class="p-4 rounded border border-gray-600">Business Innovation Consulting</div>
-			<div class="p-4 rounded border border-gray-600">Technology Strategy</div>
-            <div class="p-4 rounded border border-gray-600">Web</div>
-            <div class="p-4 rounded border border-gray-600">Mobile & Desktop</div>
+			<div class="p-4 rounded border border-gray-400">Digital Product Development</div>
+			<div class="p-4 rounded border border-gray-400">Software</div>
+			<div class="p-4 rounded border border-gray-400">Business Innovation Consulting</div>
+			<div class="p-4 rounded border border-gray-400">Technology Strategy</div>
+            <div class="p-4 rounded border border-gray-400">Web</div>
+            <div class="p-4 rounded border border-gray-400">Mobile & Desktop</div>
 		</div>
 	</div>
 </section>
 
-<!-- All styles now use Tailwind CSS -->
+<!-- Contact Section -->
+<section class="py-8 min-h-[300px]" aria-labelledby="contact-heading">
+    <h2 id="contact-heading" class="text-center text-2xl font-bold text-white mb-4">
+        Contact me
+    </h2>
+    <p class="text-lg text-gray-200 max-w-lg mx-auto mb-8">
+        If you have any questions or would like to collaborate, please fill out the form below.
+    </p>
+
+    <ContactForm />
+</section>
