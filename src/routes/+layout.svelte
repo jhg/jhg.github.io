@@ -8,8 +8,6 @@
 </script>
 
 <svelte:head>
-	<meta http-equiv="cache-control" content="max-age=604800" />
-
 	<!-- Open Graph / Facebook -->
 	<meta property="og:type" content="website" />
 	<meta property="og:url" content={$page.url.toString()} />

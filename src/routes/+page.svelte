@@ -93,13 +93,13 @@
 </section>
 
 <!-- Social Links Section -->
-<section class="py-8 text-center" aria-labelledby="social-heading">
-    <h2 id="social-heading" class="text-xl font-semibold text-white mb-6 text-stroke">
+<section class="py-8 xl:landscape:py-0 text-center" aria-labelledby="social-heading">
+    <h2 id="social-heading" class="text-xl font-semibold text-white mb-6 text-stroke xl:landscape:hidden">
         Connect with me
     </h2>
-    <div class="flex justify-center gap-6 bg-glass shadow-glass rounded-lg px-4 py-4 mx-auto w-fit xl:landscape:fixed xl:landscape:right-6 xl:landscape:top-1/2 xl:landscape:translate-y-12 xl:landscape:flex-col xl:landscape:gap-4 xl:landscape:pt-6 xl:landscape:pl-4">
+    <div class="flex justify-center gap-6 bg-glass shadow-glass rounded-lg px-4 py-4 mx-auto w-fit xl:landscape:fixed xl:landscape:right-6 xl:landscape:top-1/2 xl:landscape:translate-y-16 xl:landscape:flex-col xl:landscape:gap-4 xl:landscape:pt-6 xl:landscape:pl-4">
         <a href="https://linkedin.com/in/jesushdezhere" class="social-link group" aria-label="LinkedIn Profile" rel="noopener noreferrer" target="_blank">
-            <img src={linkedinIcon} alt="LinkedIn" class="w-10 h-10 opacity-70 group-hover:opacity-100 transition-opacity duration-300" />
+            <img src={linkedinIcon} alt="LinkedIn" width="840" height="779" class="w-10 h-10 opacity-70 group-hover:opacity-100 transition-opacity duration-300" />
         </a>
         <a href="https://github.com/jhg" class="social-link group" aria-label="GitHub Profile" rel="noopener noreferrer" target="_blank">
             <GithubIcon class="w-10 h-10 fill-white opacity-70 group-hover:opacity-100 transition-opacity duration-300" />
