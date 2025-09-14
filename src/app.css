@@ -11,3 +11,11 @@
 .shadow-glass {
     @apply shadow-md shadow-gray-900/20;
 }
+
+.fade-in {
+    animation: fadeIn ease 1s;
+}
+@keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}

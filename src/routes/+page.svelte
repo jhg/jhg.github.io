@@ -1,6 +1,7 @@
 <script>
 	import ContactForm from '$lib/components/ContactForm.svelte';
 	import heroImage from '$lib/assets/img/wb-jesus-hernandez.avif';
+	import ServicesGrid from "$lib/components/ServicesGrid.svelte";
 </script>
 
 <svelte:head>
@@ -54,7 +55,7 @@
 </section>
 
 <img src={heroImage} alt="Jesus Hernandez in suit - White & Black Portrait taken in Beijing, China"
-	class="fixed top-0 right-0 h-lvh z-[-1] object-cover"
+	class="fixed top-0 right-0 h-lvh z-[-1] object-cover fade-in"
 	style="mask: linear-gradient(to left, white 0%, white 52%, transparent 93%);"
 	fetchpriority="high"
 />
@@ -68,17 +69,7 @@
 		cutting-edge digital experiences and innovative software solutions.
 	</p>
 
-	<div class="text-center max-w-3xl mx-auto">
-		<h3 class="text-xl font-semibold text-white mb-4 text-stroke">Services</h3>
-		<div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-3.5 md:gap-4 lg:gap-4.5 text-gray-200">
-			<div class="p-4 rounded border border-gray-400/25 min-h-30 flex items-center justify-center bg-glass shadow-glass">Digital Product<br>Development</div>
-			<div class="p-4 rounded border border-gray-400/25 min-h-30 flex items-center justify-center bg-glass shadow-glass">Webs</div>
-			<div class="p-4 rounded border border-gray-400/25 min-h-30 flex items-center justify-center bg-glass shadow-glass">Technology<br>Strategy</div>
-			<div class="p-4 rounded border border-gray-400/25 min-h-30 flex items-center justify-center bg-glass shadow-glass">Mobile / Desktop<br>Apps</div>
-			<div class="p-4 rounded border border-gray-400/25 min-h-30 flex items-center justify-center bg-glass shadow-glass">MCP servers</div>
-			<div class="p-4 rounded border border-gray-400/25 min-h-30 flex items-center justify-center bg-glass shadow-glass">AI API<br>integrations</div>
-		</div>
-	</div>
+	<ServicesGrid />
 </section>
 
 <!-- Contact Section -->
