@@ -39,7 +39,7 @@
 	</div>
 
 	<button type="submit" disabled={!isValid}
-		class="w-full h-[48px] px-4 py-2 bg-glass rounded bg-gray-400/60 text-white font-medium hover:bg-gray-500/60 disabled:bg-gray-600/40 disabled:text-white/50 disabled:cursor-not-allowed transition-colors duration-700"
+		class="w-full h-[48px] px-4 py-2 bg-glass rounded bg-gray-300/50 text-white font-medium hover:bg-gray-400/50 disabled:bg-gray-600/40 disabled:text-white/50 disabled:cursor-not-allowed transition-colors duration-700"
 	>
 		Let's Connect!
 	</button>
