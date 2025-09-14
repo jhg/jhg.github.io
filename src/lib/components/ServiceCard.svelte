@@ -3,7 +3,7 @@
 	let flipped = $state(false);
 </script>
 
-<div class="service-card-container perspective-1000 min-h-32 text-stroke">
+<div class="service-card-container perspective-1000 min-h-36 text-stroke">
 	<div
 		class="service-card relative w-full h-full transition-transform duration-700 preserve-3d cursor-pointer"
 		class:rotate-y-180={flipped}
@@ -17,7 +17,7 @@
 		<div class="service-card-face front-face p-3 text-xl rounded border border-gray-400/25 flex items-center justify-center bg-glass shadow-glass">
 			{@render children?.()}
 		</div>
-		<div class="service-card-face back-face p-1 md:py-3 landscape:px-6 rounded border border-gray-400/25 bg-glass shadow-glass rotate-y-180 text-left">
+		<div class="service-card-face back-face p-2 px-3 md:py-4 landscape:px-6 rounded border border-gray-400/25 bg-glass shadow-glass rotate-y-180 text-left">
 			{@render backSide?.()}
 		</div>
 	</div>

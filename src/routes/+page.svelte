@@ -2,6 +2,9 @@
 	import ContactForm from '$lib/components/ContactForm.svelte';
 	import heroImage from '$lib/assets/img/wb-jesus-hernandez.avif';
 	import ServicesGrid from "$lib/components/ServicesGrid.svelte";
+	import GithubIcon from '$lib/assets/img/social/github.svg?component';
+	import DiscordIcon from '$lib/assets/img/social/discord.svg?component';
+	import linkedinIcon from '$lib/assets/img/social/linkedin.png';
 </script>
 
 <svelte:head>
@@ -87,4 +90,22 @@
     </p>
 
     <ContactForm />
+</section>
+
+<!-- Social Links Section -->
+<section class="py-8 text-center" aria-labelledby="social-heading">
+    <h2 id="social-heading" class="text-xl font-semibold text-white mb-6 text-stroke">
+        Connect with me
+    </h2>
+    <div class="flex justify-center gap-6 bg-glass shadow-glass rounded-lg px-4 py-4 mx-auto w-fit">
+        <a href="https://linkedin.com/in/jesushdezhere" class="social-link group" aria-label="LinkedIn Profile" rel="noopener noreferrer" target="_blank">
+            <img src={linkedinIcon} alt="LinkedIn" class="w-10 h-10 opacity-70 group-hover:opacity-100 transition-opacity duration-300" />
+        </a>
+        <a href="https://github.com/jhg" class="social-link group" aria-label="GitHub Profile" rel="noopener noreferrer" target="_blank">
+            <GithubIcon class="w-10 h-10 fill-white opacity-70 group-hover:opacity-100 transition-opacity duration-300" />
+        </a>
+        <a href="https://discord.gg/9xW8CDx87d" class="social-link group" aria-label="Discord Server" rel="nofollow noopener noreferrer" target="_blank">
+            <DiscordIcon class="w-10 h-10 fill-white opacity-70 group-hover:opacity-100 transition-opacity duration-300" />
+        </a>
+    </div>
 </section>

@@ -5,11 +5,13 @@ import tailwindcss from '@tailwindcss/vite';
 import htmlMinifier from 'vite-plugin-html-minifier';
 import { ViteImageOptimizer } from 'vite-plugin-image-optimizer';
 import compression from 'vite-plugin-compression';
+import svg from '@poppanator/sveltekit-svg';
 
 export default defineConfig({
 	plugins: [
 		enhancedImages(), // Must come before SvelteKit plugin
 		tailwindcss(),
+		svg(),
 		sveltekit(),
 
 		htmlMinifier({
