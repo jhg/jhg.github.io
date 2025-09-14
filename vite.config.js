@@ -3,6 +3,7 @@ import { defineConfig } from 'vite';
 import { enhancedImages } from '@sveltejs/enhanced-img';
 import tailwindcss from '@tailwindcss/vite';
 import htmlMinifier from 'vite-plugin-html-minifier';
+import { ViteImageOptimizer } from 'vite-plugin-image-optimizer';
 import compression from 'vite-plugin-compression';
 
 export default defineConfig({
@@ -32,6 +33,43 @@ export default defineConfig({
 			removeTagWhitespace: true,
 			trimCustomFragments: true,
 			html5: true,
+		}),
+
+		ViteImageOptimizer({
+			includePublic: true,
+			png: {
+				quality: 75,
+				effort: 10 // Maximum compression effort
+			},
+			jpeg: {
+				quality: 85,
+				progressive: true,
+				mozjpeg: true
+			},
+			gif: {
+				quality: 75,
+				interlaced: false,
+				optimizationLevel: 3,
+				colors: 256,
+			},
+			webp: {
+				quality: 85,
+				effort: 6
+			},
+			avif: {
+				quality: 80,
+				effort: 9
+			},
+			svg: {
+				plugins: [
+					{ name: 'removeViewBox', active: false },
+					{ name: 'removeDimensions', active: true },
+					{ name: 'removeComments', active: true },
+					{ name: 'removeMetadata', active: true }
+				]
+			},
+			optimizeImages: true,
+			optimizeImagesInDev: false,
 		}),
 
 		compression({
