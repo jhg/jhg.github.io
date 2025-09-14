@@ -8,11 +8,11 @@
 </script>
 
 <svelte:head>
-	<title>Jesus Hernandez - Digital Products Creator</title>
+	<title>Jesus Hernandez</title>
 	<!-- Basic meta tags -->
 	<meta name="author" content="Jesus Hernandez" />
-	<meta name="keywords" content="jesus hernandez, developer, software, digital products, innovation" />
-	<meta name="description" content="Digital products creator, software developer, and business innovator specialized in creating innovative digital solutions." />
+	<meta name="keywords" content="jesus hernandez, developer, software, digital, innovation, bussines" />
+	<meta name="description" content="Digital products creator, software developer, and business innovator. From idea to launch, to align technology with business." />
 
     <link rel="preload" as="image" href={heroImage} />
 
@@ -71,10 +71,15 @@
 <!-- About Section - Visible content -->
 <section class="py-8" aria-labelledby="about-heading">
 	<h2 id="about-heading" class="text-center text-2xl font-bold text-white mb-6 text-stroke">About</h2>
-	<p class="text-lg portrait:text-center text-gray-200 max-w-3xl mx-auto leading-relaxed mb-8 text-stroke">
-        I craft digital products that are fast, reliable and easy to use.
-        My focus is always on solving real problems and creating clear business value.
-        Every project is built to last and ready to grow.
+	<p class="text-lg text-gray-200 max-w-3xl mx-auto leading-relaxed mb-8 text-stroke">
+		I craft digital products that are fast, reliable and easy to use.
+		My focus is always on solving real problems and creating clear business value.
+	</p>
+	<p class="text-lg text-gray-200 max-w-3xl mx-auto leading-relaxed mb-8 text-stroke">
+		With the experience of building <a href="https://lenorix.com">lenorix</a>,
+		a tech company with international projects,
+		I bring both technical expertise and business insight.
+		Every project is built to last and ready to grow.
 	</p>
 
 	<ServicesGrid />
