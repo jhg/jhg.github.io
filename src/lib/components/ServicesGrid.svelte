@@ -21,25 +21,25 @@ import ServiceCard from "$lib/components/ServiceCard.svelte";
 		<ServiceCard>
 			Technology<br>Strategy
 			{#snippet backSide()}
-				Clear guidance to choose the right tech for your goals.
+				Guidance to align technology with business. Managing opportunities and risks.
 			{/snippet}
 		</ServiceCard>
 		<ServiceCard>
 			Mobile & Desktop<br>Apps
 			{#snippet backSide()}
-				Apps for mobile and desktop, built to scale.
+				Apps for mobile and desktop. Offline support and integration with native platform.
 			{/snippet}
 		</ServiceCard>
 		<ServiceCard>
 			AI<br>Integrations
 			{#snippet backSide()}
-				AI tools for your app. MCP servers to integrate your service with AI apps.
+				AI tools for your app. And MCP servers to integrate your service with AI apps.
 			{/snippet}
 		</ServiceCard>
 		<ServiceCard>
-			Servers<br>High-Performance
+			High-Performance<br>Services
 			{#snippet backSide()}
-				Powerful and scalable server solutions.
+				Network services optimized for performance and concurrency. Scalable and reliable.
 			{/snippet}
 		</ServiceCard>
 	</div>

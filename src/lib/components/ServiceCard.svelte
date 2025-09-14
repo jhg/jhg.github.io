@@ -14,10 +14,10 @@
 		onmouseleave={() => setTimeout(() => flipped = false, 300)}
 		onkeydown={(e) => e.key === 'Enter' && (flipped = !flipped)}
 	>
-		<div class="service-card-face front-face p-4 text-xl rounded border border-gray-400/25 flex items-center justify-center bg-glass shadow-glass">
+		<div class="service-card-face front-face p-3 text-xl rounded border border-gray-400/25 flex items-center justify-center bg-glass shadow-glass">
 			{@render children?.()}
 		</div>
-		<div class="service-card-face back-face p-3 landscape:px-6 rounded border border-gray-400/25 bg-glass shadow-glass rotate-y-180 text-left">
+		<div class="service-card-face back-face p-1 md:py-3 landscape:px-6 rounded border border-gray-400/25 bg-glass shadow-glass rotate-y-180 text-left">
 			{@render backSide?.()}
 		</div>
 	</div>
