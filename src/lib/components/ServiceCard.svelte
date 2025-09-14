@@ -3,7 +3,7 @@
 	let flipped = $state(false);
 </script>
 
-<div class="service-card-container perspective-1000 min-h-32">
+<div class="service-card-container perspective-1000 min-h-32 text-stroke">
 	<div
 		class="service-card relative w-full h-full transition-transform duration-700 preserve-3d cursor-pointer {flipped ? 'rotate-y-180' : ''}"
 		role="button"
