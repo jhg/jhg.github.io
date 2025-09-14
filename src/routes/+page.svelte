@@ -1,13 +1,13 @@
 <script>
 	import ContactForm from '$lib/components/ContactForm.svelte';
-	import heroImage from '$lib/assets/img/wb-jesus-hernandez.jpg';
+	import heroImage from '$lib/assets/img/wb-jesus-hernandez.avif';
 </script>
 
 <svelte:head>
 	<title>Jesus Hernandez - Digital Products Creator</title>
 	<meta name="description" content="Digital products creator, software developer, and business innovator specialized in creating innovative digital solutions." />
 
-    <link rel="preload" as="image" href={heroImage} fetchpriority="high" />
+    <link rel="preload" as="image" href={heroImage} />
 
 	<!-- Structured Data for SEO -->
 	{@html `
