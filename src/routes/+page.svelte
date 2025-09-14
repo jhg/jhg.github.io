@@ -62,7 +62,7 @@
 		width="5464"
 		height="8192"
 	/>
-	<figcaption class="text-xs fixed bottom-0 right-0 mr-2 mb-1 z-[-1] text-gray-300/60 select-none" aria-hidden="true">Portrait taken in 2024 in Beijing, China</figcaption>
+	<figcaption class="text-xs fixed bottom-0 right-0 mr-2 mb-1 z-[-1] text-gray-400/50 select-none" aria-hidden="true">Portrait taken in 2024 in Beijing, China</figcaption>
 </figure>
 
 <!-- About Section - Visible content -->
