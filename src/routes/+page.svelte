@@ -23,9 +23,10 @@
 		"name": "Jesus Hernandez",
 		"jobTitle": "Software Developer & Business Innovator",
 		"description": "Software developer, CEO of lenorix, specializing in technology innovation and digital product development",
-		"url": "https://jhg.github.io",
+		"url": "https://jesushernandez.net",
 		"sameAs": [
-			"https://github.com/jhg"
+			"https://github.com/jhg",
+			"https://linkedin.com/in/jesushdezhere"
 		],
 		"knowsAbout": [
 			"Software Development",
