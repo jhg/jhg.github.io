@@ -12,7 +12,7 @@
     @apply shadow-md shadow-gray-900/20;
 }
 
-.fade-in {
+.fade-in-1s {
     animation: fadeIn ease 1s;
 }
 @keyframes fadeIn {
