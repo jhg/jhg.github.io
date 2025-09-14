@@ -5,14 +5,15 @@
 
 <div class="service-card-container perspective-1000 min-h-32 text-stroke">
 	<div
-		class="service-card relative w-full h-full transition-transform duration-700 preserve-3d cursor-pointer {flipped ? 'rotate-y-180' : ''}"
+		class="service-card relative w-full h-full transition-transform duration-700 preserve-3d cursor-pointer"
+		class:rotate-y-180={flipped}
 		role="button"
 		tabindex="0"
 		onclick={() => flipped = !flipped}
 		onkeydown={(e) => e.key === 'Enter' && (flipped = !flipped)}
 	>
 		<!-- Front Side -->
-		<div class="service-card-face front-face p-4 rounded border border-gray-400/25 flex items-center justify-center bg-glass shadow-glass">
+		<div class="service-card-face front-face p-4 text-xl rounded border border-gray-400/25 flex items-center justify-center bg-glass shadow-glass">
 			{@render children?.()}
 		</div>
 		<!-- Back Side -->

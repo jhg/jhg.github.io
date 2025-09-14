@@ -8,13 +8,13 @@ import ServiceCard from "$lib/components/ServiceCard.svelte";
 		<ServiceCard>
 			Digital Product<br>Development
 			{#snippet backSide()}
-				From idea to launch, I build complete digital products.
+				From idea to launch, I build complete digital products caring the UX/UI.
 			{/snippet}
 		</ServiceCard>
 		<ServiceCard>
 			Web<br>Applications
 			{#snippet backSide()}
-				Fast, secure, and user-friendly web apps, APIs & UX/UI.
+				Fast and user-friendly web apps & APIs. With SEO in mind from the beginning.
 			{/snippet}
 		</ServiceCard>
 		<ServiceCard>
