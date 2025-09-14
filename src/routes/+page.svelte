@@ -51,7 +51,7 @@
 </section>
 
 <img src={heroImage} alt="Jesus Hernandez in suit - White & Black Portrait taken in Beijing, China"
-	class="fixed top-0 right-0 h-dvh z-[-1] object-cover"
+	class="fixed top-0 right-0 h-lvh z-[-1] object-cover"
 	style="mask: linear-gradient(to left, white 0%, white 52%, transparent 92%);"
 	fetchpriority="high"
 />
