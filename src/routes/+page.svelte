@@ -66,9 +66,9 @@
 <section class="py-8" aria-labelledby="about-heading">
 	<h2 id="about-heading" class="text-center text-2xl font-bold text-white mb-6 text-stroke">About</h2>
 	<p class="text-lg portrait:text-center text-gray-200 max-w-3xl mx-auto leading-relaxed mb-8 text-stroke">
-		Experienced digital products creator with expertise in software development,
-		business innovation, and technology solutions. Specializing in creating
-		cutting-edge digital experiences and innovative software solutions.
+        I craft digital products that are fast, reliable, and easy to use.
+        My focus is always on solving real problems and creating clear business value.
+        Every project is built to last and ready to grow.
 	</p>
 
 	<ServicesGrid />
