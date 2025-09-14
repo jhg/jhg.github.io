@@ -8,6 +8,8 @@
 </script>
 
 <svelte:head>
+	<link rel="modulepreload" href="/src/app.css" />
+
 	<!-- Open Graph / Facebook -->
 	<meta property="og:type" content="website" />
 	<meta property="og:url" content={$page.url.toString()} />
