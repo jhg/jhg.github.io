@@ -8,11 +8,6 @@
 </script>
 
 <svelte:head>
-	<!-- Basic meta tags -->
-	<meta name="author" content="Jesus Hernandez" />
-	<meta name="description" content="Digital products creator, software developer, and business innovator." />
-	<meta name="keywords" content="jesus hernandez, developer, software, digital products, innovation" />
-
 	<!-- Open Graph / Facebook -->
 	<meta property="og:type" content="website" />
 	<meta property="og:url" content={$page.url.toString()} />

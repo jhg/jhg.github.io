@@ -5,6 +5,9 @@
 
 <svelte:head>
 	<title>Jesus Hernandez - Digital Products Creator</title>
+	<!-- Basic meta tags -->
+	<meta name="author" content="Jesus Hernandez" />
+	<meta name="keywords" content="jesus hernandez, developer, software, digital products, innovation" />
 	<meta name="description" content="Digital products creator, software developer, and business innovator specialized in creating innovative digital solutions." />
 
     <link rel="preload" as="image" href={heroImage} />
