@@ -3,3 +3,11 @@
 .text-stroke {
     text-shadow: 1px 1px 0 rgba(0,0,0,0.20), -1px -1px 0 rgba(0,0,0,0.20), 1px -1px 0 rgba(0,0,0,0.20), -1px 1px 0 rgba(0,0,0,0.20), 0 1px 0 rgba(0,0,0,0.20), 0 -1px 0 rgba(0,0,0,0.20), 1px 0 0 rgba(0,0,0,0.20), -1px 0 0 rgba(0,0,0,0.20);
 }
+
+.bg-glass {
+    @apply backdrop-blur-lg inset-shadow-2xs inset-shadow-white/50;
+}
+
+.shadow-glass {
+    @apply shadow-md shadow-gray-900/20;
+}

@@ -18,7 +18,7 @@
             </label>
             <input id="name" name="name" type="text" autocomplete="name"
                    bind:value={formData.name}
-                   class="w-full h-[42px] px-2 py-1 rounded border border-gray-400 transition duration-300 bg-transparent text-white placeholder-gray-400 focus:outline-none focus:border-gray-500"
+                   class="w-full h-[42px] px-2 py-1 bg-glass rounded border border-gray-400 transition duration-300 bg-transparent text-white placeholder-gray-400 focus:outline-none focus:border-gray-500"
             />
         </div>
 		<div>

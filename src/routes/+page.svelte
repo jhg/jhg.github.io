@@ -55,14 +55,14 @@
 
 <img src={heroImage} alt="Jesus Hernandez in suit - White & Black Portrait taken in Beijing, China"
 	class="fixed top-0 right-0 h-lvh z-[-1] object-cover"
-	style="mask: linear-gradient(to left, white 0%, white 52%, transparent 92%);"
+	style="mask: linear-gradient(to left, white 0%, white 52%, transparent 93%);"
 	fetchpriority="high"
 />
 
 <!-- About Section - Visible content -->
 <section class="py-8" aria-labelledby="about-heading">
 	<h2 id="about-heading" class="text-center text-2xl font-bold text-white mb-6 text-stroke">About</h2>
-	<p class="text-lg text-gray-200 max-w-3xl mx-auto leading-relaxed mb-8 text-stroke">
+	<p class="text-lg portrait:text-center text-gray-200 max-w-3xl mx-auto leading-relaxed mb-8 text-stroke">
 		Experienced digital products creator with expertise in software development,
 		business innovation, and technology solutions. Specializing in creating
 		cutting-edge digital experiences and innovative software solutions.
@@ -71,12 +71,12 @@
 	<div class="text-center max-w-3xl mx-auto">
 		<h3 class="text-xl font-semibold text-white mb-4 text-stroke">Services</h3>
 		<div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-2 md:gap-4 lg:gap-5 text-gray-200">
-			<div class="p-4 rounded border border-gray-400 flex items-center justify-center">Digital Product Development</div>
-			<div class="p-4 rounded border border-gray-400 flex items-center justify-center">Webs</div>
-            <div class="p-4 rounded border border-gray-400 flex items-center justify-center">Technology Strategy</div>
-			<div class="p-4 rounded border border-gray-400 flex items-center justify-center">Mobile / Desktop Apps</div>
-            <div class="p-4 rounded border border-gray-400 flex items-center justify-center">LLM API integrations</div>
-            <div class="p-4 rounded border border-gray-400 flex items-center justify-center">MCP servers</div>
+			<div class="p-4 rounded border border-gray-400/25 flex items-center justify-center bg-glass shadow-glass">Digital Product Development</div>
+			<div class="p-4 rounded border border-gray-400/25 flex items-center justify-center bg-glass shadow-glass">Webs</div>
+            <div class="p-4 rounded border border-gray-400/25 flex items-center justify-center bg-glass shadow-glass">Technology Strategy</div>
+			<div class="p-4 rounded border border-gray-400/25 flex items-center justify-center bg-glass shadow-glass">Mobile / Desktop Apps</div>
+            <div class="p-4 rounded border border-gray-400/25 flex items-center justify-center bg-glass shadow-glass">LLM API integrations</div>
+            <div class="p-4 rounded border border-gray-400/25 flex items-center justify-center bg-glass shadow-glass">MCP servers</div>
 		</div>
 	</div>
 </section>
