@@ -4,6 +4,7 @@ import ServiceCard from "$lib/components/ServiceCard.svelte";
 
 <div class="text-center max-w-3xl mx-auto">
 	<h3 class="text-xl font-semibold text-white mb-4 text-stroke">Services</h3>
+	<p class="text-gray-400 font-normal text-xs mb-2 text-right mx-2 lg:hidden" aria-hidden="true">(touch a block to flip it)</p>
 	<div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-3.5 md:gap-4 lg:gap-4.5 text-gray-200">
 		<ServiceCard>
 			Digital Product<br>Development
