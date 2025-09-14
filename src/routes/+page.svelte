@@ -44,7 +44,7 @@
 </svelte:head>
 
 <!-- Hero Section -->
-<section class="text-center py-8 min-h-[200px] mt-50 sm:mt-56 md:mt-76 lg:mt-84 landscape:mt-8" aria-labelledby="main-heading">
+<section class="text-center py-8 min-h-[200px] mt-50 sm:mt-56 md:mt-76 lg:mt-84 landscape:mt-20" aria-labelledby="main-heading">
 	<h1 id="main-heading" class="text-4xl md:text-5xl font-bold text-white mb-4 tracking-tight text-stroke">
 		Jesus Hernandez
 	</h1>
@@ -70,13 +70,13 @@
 
 	<div class="text-center max-w-3xl mx-auto">
 		<h3 class="text-xl font-semibold text-white mb-4 text-stroke">Services</h3>
-		<div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-2 md:gap-4 lg:gap-5 text-gray-200">
-			<div class="p-4 rounded border border-gray-400/25 flex items-center justify-center bg-glass shadow-glass">Digital Product Development</div>
-			<div class="p-4 rounded border border-gray-400/25 flex items-center justify-center bg-glass shadow-glass">Webs</div>
-            <div class="p-4 rounded border border-gray-400/25 flex items-center justify-center bg-glass shadow-glass">Technology Strategy</div>
-			<div class="p-4 rounded border border-gray-400/25 flex items-center justify-center bg-glass shadow-glass">Mobile / Desktop Apps</div>
-            <div class="p-4 rounded border border-gray-400/25 flex items-center justify-center bg-glass shadow-glass">LLM API integrations</div>
-            <div class="p-4 rounded border border-gray-400/25 flex items-center justify-center bg-glass shadow-glass">MCP servers</div>
+		<div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-3.5 md:gap-4 lg:gap-4.5 text-gray-200">
+			<div class="p-4 rounded border border-gray-400/25 min-h-30 flex items-center justify-center bg-glass shadow-glass">Digital Product Development</div>
+			<div class="p-4 rounded border border-gray-400/25 min-h-30 flex items-center justify-center bg-glass shadow-glass">Webs</div>
+            <div class="p-4 rounded border border-gray-400/25 min-h-30 flex items-center justify-center bg-glass shadow-glass">Technology Strategy</div>
+			<div class="p-4 rounded border border-gray-400/25 min-h-30 flex items-center justify-center bg-glass shadow-glass">Mobile / Desktop Apps</div>
+            <div class="p-4 rounded border border-gray-400/25 min-h-30 flex items-center justify-center bg-glass shadow-glass">LLM API integrations</div>
+            <div class="p-4 rounded border border-gray-400/25 min-h-30 flex items-center justify-center bg-glass shadow-glass">MCP servers</div>
 		</div>
 	</div>
 </section>

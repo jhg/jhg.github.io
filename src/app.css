@@ -5,7 +5,7 @@
 }
 
 .bg-glass {
-    @apply backdrop-blur-lg inset-shadow-2xs inset-shadow-white/50;
+    @apply backdrop-blur-lg inset-shadow-2xs inset-shadow-white/50 backdrop-brightness-125 backdrop-contrast-95;
 }
 
 .shadow-glass {
