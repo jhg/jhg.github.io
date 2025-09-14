@@ -9,7 +9,9 @@
 		class:rotate-y-180={flipped}
 		role="button"
 		tabindex="0"
-		onclick={() => flipped = !flipped}
+		onclick={() => flipped = true }
+		onmouseenter={() => flipped = true}
+		onmouseleave={() => setTimeout(() => flipped = false, 300)}
 		onkeydown={(e) => e.key === 'Enter' && (flipped = !flipped)}
 	>
 		<!-- Front Side -->
