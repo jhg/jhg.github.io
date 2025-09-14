@@ -45,11 +45,11 @@
 </svelte:head>
 
 <!-- Hero Section -->
-<section class="text-center py-8 min-h-[200px] mt-50 sm:mt-56 md:mt-76 lg:mt-84 landscape:mt-20" aria-labelledby="main-heading">
+<section class="text-center py-8 min-h-[200px] mt-50 sm:mt-56 md:mt-76 lg:mt-84 landscape:mt-26" aria-labelledby="main-heading">
 	<h1 id="main-heading" class="text-4xl md:text-5xl font-bold text-white mb-4 tracking-tight text-stroke">
 		Jesus Hernandez
 	</h1>
-	<p class="text-xl text-gray-200 max-w-2xl mx-auto leading-relaxed mb-6 mt-20 sm:mt-26 md:mt-30 lg:mt-34 landscape:mt-6 text-stroke">
+	<p class="text-xl text-gray-200 max-w-2xl mx-auto leading-relaxed mb-6 landscape:mb-18 mt-20 sm:mt-26 md:mt-30 lg:mt-34 landscape:mt-10 text-stroke">
 		Digital products creator, software developer, and business innovator.
 	</p>
 </section>

@@ -15,10 +15,11 @@
 		<div class="service-card-face front-face p-4 rounded border border-gray-400/25 flex items-center justify-center bg-glass shadow-glass">
 			{@render children?.()}
 		</div>
-
 		<!-- Back Side -->
-		<div class="service-card-face back-face p-3 landscape:p-6 rounded border border-gray-400/25 flex text-left text-justify items-start justify-center bg-glass shadow-glass rotate-y-180">
-			{@render backSide?.()}
+		<div class="service-card-face back-face p-3 landscape:px-6 rounded border border-gray-400/25 bg-glass shadow-glass rotate-y-180">
+			<div class="text-left">
+				{@render backSide?.()}
+			</div>
 		</div>
 	</div>
 </div>
