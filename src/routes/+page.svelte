@@ -54,19 +54,22 @@
 	</p>
 </section>
 
-<img src={heroImage} alt="Jesus Hernandez in suit - White & Black Portrait taken in Beijing, China"
-	class="fixed top-0 right-0 h-lvh w-auto z-[-1] object-cover fade-in-1s"
-	style="mask: linear-gradient(to left, white 0%, white 52%, transparent 93%);"
-	fetchpriority="high"
-	width="5464"
-	height="8192"
-/>
+<figure>
+	<img src={heroImage} alt="Jesus Hernandez in suit - White & Black Portrait taken in 2024 in Beijing, China"
+		class="fixed top-0 right-0 h-lvh w-auto z-[-1] object-cover fade-in-1s"
+		style="mask: linear-gradient(to left, white 0%, white 52%, transparent 93%);"
+		fetchpriority="high"
+		width="5464"
+		height="8192"
+	/>
+	<figcaption class="text-xs fixed bottom-0 right-0 mr-2 mb-1 z-[-1] text-gray-300/60 select-none" aria-hidden="true">Portrait taken in 2024 in Beijing, China</figcaption>
+</figure>
 
 <!-- About Section - Visible content -->
 <section class="py-8" aria-labelledby="about-heading">
 	<h2 id="about-heading" class="text-center text-2xl font-bold text-white mb-6 text-stroke">About</h2>
 	<p class="text-lg portrait:text-center text-gray-200 max-w-3xl mx-auto leading-relaxed mb-8 text-stroke">
-        I craft digital products that are fast, reliable, and easy to use.
+        I craft digital products that are fast, reliable and easy to use.
         My focus is always on solving real problems and creating clear business value.
         Every project is built to last and ready to grow.
 	</p>
