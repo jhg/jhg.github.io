@@ -2,7 +2,7 @@
 	import { page } from '$app/stores';
 </script>
 
-<nav class="fixed top-4 inset-x-4 max-w-4xl mx-auto z-50 bg-glass shadow-glass rounded-lg px-6 py-3">
+<nav class="fixed top-4 inset-x-4 max-w-4xl mx-auto z-50 bg-glass shadow-glass rounded-full px-6 py-3">
 	<div class="flex justify-center gap-6">
 		{#if $page.route.id === '/'}
 			<span class="text-white font-medium border-b-2 border-white/50 pb-1 cursor-default">
