@@ -1,8 +1,8 @@
 <script>
 	import ContactForm from '$lib/components/ContactForm.svelte';
-	import heroImage from '$lib/assets/img/wb-jesus-hernandez.avif';
 	import ServicesGrid from "$lib/components/ServicesGrid.svelte";
 	import SocialLinks from "$lib/components/SocialLinks.svelte";
+	import PortraitImage from "$lib/components/PortraitImage.svelte";
 </script>
 
 <svelte:head>
@@ -12,7 +12,7 @@
 	<meta name="keywords" content="jesus hernandez, developer, software, digital, innovation, bussines" />
 	<meta name="description" content="Digital products creator, software developer, and business innovator. From idea to launch, to align technology with business." />
 
-    <link rel="preload" as="image" href={heroImage} />
+    <link rel="preload" as="image" href="/src/lib/assets/img/wb-jesus-hernandez.avif" />
 
 	<!-- Structured Data for SEO -->
 	{@html `
@@ -56,16 +56,7 @@
 	</p>
 </section>
 
-<figure>
-	<img src={heroImage} alt="Jesus Hernandez in suit - White & Black Portrait taken in 2024 in Beijing, China"
-		class="fixed top-0 right-0 h-lvh w-auto z-[-1] object-cover fade-in-1s"
-		style="mask: linear-gradient(to left, white 0%, white 52%, transparent 93%);"
-		fetchpriority="high"
-		width="5464"
-		height="8192"
-	/>
-	<figcaption class="text-xs fixed bottom-0 right-0 mr-2 mb-1 z-[-1] text-gray-400/50 select-none" aria-hidden="true">Portrait taken in 2024 in Beijing, China</figcaption>
-</figure>
+<PortraitImage />
 
 <!-- About Section - Visible content -->
 <section class="py-8" aria-labelledby="about-heading">

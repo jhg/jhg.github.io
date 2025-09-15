@@ -20,7 +20,7 @@
 	<div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
         <div>
             <label for="name" class="block text-white mb-1 text-sm font-medium">
-                Full Name <span class="text-gray-400 font-normal text-xs">(optional)</span>
+                Full Name <span class="text-gray-400 font-normal text-xs select-none">(optional)</span>
             </label>
             <input id="name" name="name" type="text" autocomplete="name"
                    bind:value={formData.name}
