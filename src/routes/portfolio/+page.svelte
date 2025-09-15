@@ -80,7 +80,7 @@
 				</p>
 			</div>
 			<div class="flex flex-wrap gap-3">
-				<a href="https://discord.com/oauth2/authorize?client_id=985134052665356299&permissions=34816&scope=applications.commands%20bot" target="_blank" rel="noopener noreferrer"
+				<a href="https://discord.com/oauth2/authorize?client_id=985134052665356299&permissions=34816&scope=applications.commands%20bot" rel="noopener noreferrer"
 				   class="px-4 py-2 bg-glass rounded border border-gray-400 text-white hover:bg-gray-400/50 transition-colors duration-300 font-medium">
 					Add Trophy to your server
 				</a>
@@ -106,7 +106,7 @@
 					An open-source package to create custom dashboard layouts.
 				</p>
 				<p class="leading-relaxed text-stroke">
-					I fixed styles to support Filament v4.
+					<a href="https://github.com/asosick/filament-layout-manager/pull/7" rel="noopener noreferrer" class="underline">I fixed styles to support Filament v4.</a>
 				</p>
 			</div>
 		{/snippet}
