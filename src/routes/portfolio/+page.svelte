@@ -1,6 +1,7 @@
 <script>
 	import PortraitImage from "$lib/components/PortraitImage.svelte";
 	import NavMenu from "$lib/components/NavMenu.svelte";
+    import SocialLinks from "$lib/components/SocialLinks.svelte";
 </script>
 
 <svelte:head>
@@ -13,13 +14,15 @@
 <PortraitImage />
 
 <!-- Portfolio content will go here -->
-<main class="max-w-4xl mx-auto px-4 py-8 mt-10 min-h-screen">
+<main class="max-w-4xl mx-auto px-4 py-8 mt-10">
 	<h1 class="text-4xl md:text-5xl font-bold text-white mb-8 text-center text-stroke">
 		Portfolio
 	</h1>
 
 	<!-- Content placeholder -->
-	<div class="text-center text-gray-400 py-16">
+	<div class="text-center text-gray-400 py-2">
 		<p>Portfolio content coming soon...</p>
 	</div>
 </main>
+
+<SocialLinks />
