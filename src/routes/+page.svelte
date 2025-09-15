@@ -3,6 +3,7 @@
 	import ServicesGrid from "$lib/components/ServicesGrid.svelte";
 	import SocialLinks from "$lib/components/SocialLinks.svelte";
 	import PortraitImage from "$lib/components/PortraitImage.svelte";
+	import NavMenu from "$lib/components/NavMenu.svelte";
 </script>
 
 <svelte:head>
@@ -46,6 +47,9 @@
 	`}
 </svelte:head>
 
+<NavMenu />
+<PortraitImage />
+
 <!-- Hero Section -->
 <section class="text-center py-8 min-h-[200px] mt-50 sm:mt-56 md:mt-76 lg:mt-84 landscape:mt-26" aria-labelledby="main-heading">
 	<h1 id="main-heading" class="text-4xl md:text-5xl font-bold text-white mb-4 tracking-tight text-stroke">
@@ -55,8 +59,6 @@
 		Digital products creator, software developer, and business innovator.
 	</p>
 </section>
-
-<PortraitImage />
 
 <!-- About Section - Visible content -->
 <section class="py-8" aria-labelledby="about-heading">

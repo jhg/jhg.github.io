@@ -98,3 +98,4 @@ The contact form submits to `https://simpleforms.lenorix.com/api/01k51n9dtx4habb
 - Font preloading prevents FOIT/FOUT
 - Image optimization reduces bundle sizes by ~70%
 - All build optimizations are production-only to maintain dev speed
+- Code comments must be in english, never to tell what is obvious from names or code itself easy to see, must give additional information and context
