@@ -14,7 +14,7 @@
 	<meta name="keywords" content="jesus hernandez, developer, software, digital, innovation, bussines" />
 	<meta name="description" content="Digital products creator, software developer, and business innovator. From idea to launch, to align technology with business." />
 
-    <link rel="preload" as="image" href={hero image} />
+    <link rel="preload" as="image" href={heroImage} />
 
 	<!-- Structured Data for SEO -->
 	{@html `
