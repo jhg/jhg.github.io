@@ -4,6 +4,7 @@
 	import SocialLinks from "$lib/components/SocialLinks.svelte";
 	import PortraitImage from "$lib/components/PortraitImage.svelte";
 	import NavMenu from "$lib/components/NavMenu.svelte";
+ import heroImage from '$lib/assets/img/wb-jesus-hernandez.avif';
 </script>
 
 <svelte:head>
@@ -13,7 +14,7 @@
 	<meta name="keywords" content="jesus hernandez, developer, software, digital, innovation, bussines" />
 	<meta name="description" content="Digital products creator, software developer, and business innovator. From idea to launch, to align technology with business." />
 
-    <link rel="preload" as="image" href="/src/lib/assets/img/wb-jesus-hernandez.avif" />
+    <link rel="preload" as="image" href={hero image} />
 
 	<!-- Structured Data for SEO -->
 	{@html `
