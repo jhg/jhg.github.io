@@ -10,9 +10,9 @@
 		"prepare": "svelte-kit sync || echo ''"
 	},
 	"devDependencies": {
-		"@sveltejs/adapter-auto": "^6.0.0",
+		"@sveltejs/adapter-auto": "^8.0.0",
 		"@sveltejs/enhanced-img": "^1.0.0",
-		"@sveltejs/kit": "^2.22.0",
+		"@sveltejs/kit": "^3.1.1",
 		"@sveltejs/vite-plugin-svelte": "^6.0.0",
 		"svelte": "^5.57.3",
 		"vite": "^7.3.7"
@@ -32,7 +32,7 @@
 	"homepage": "https://github.com/jhg/jhg.github.io#readme",
 	"dependencies": {
 		"@poppanator/sveltekit-svg": "^6.0.0",
-		"@sveltejs/adapter-static": "^3.0.9",
+		"@sveltejs/adapter-static": "^4.0.1",
 		"@tailwindcss/vite": "^4.1.13",
 		"autoprefixer": "^10.4.21",
 		"postcss": "^8.5.32",
