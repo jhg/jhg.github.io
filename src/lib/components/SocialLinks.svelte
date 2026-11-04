@@ -11,7 +11,7 @@
 	<a href="https://github.com/jhg" class="social-link group" aria-label="GitHub Profile" rel="noopener noreferrer" target="_blank">
 		<GithubIcon class="w-10 h-10 fill-white opacity-70 group-hover:opacity-100 transition-opacity duration-300" />
 	</a>
-	<a href="https://discord.gg/9xW8CDx87d" class="social-link group" aria-label="Discord Server" rel="nofollow noopener noreferrer" target="_blank">
+	<a href="https://discord.gg/uGxpY7PQGa" class="social-link group" aria-label="Discord Server" rel="nofollow noopener noreferrer" target="_blank">
 		<DiscordIcon class="w-10 h-10 fill-white opacity-70 group-hover:opacity-100 transition-opacity duration-300" />
 	</a>
 </div>
