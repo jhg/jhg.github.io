@@ -14,7 +14,7 @@
 		"@sveltejs/enhanced-img": "^0.8.1",
 		"@sveltejs/kit": "^2.22.0",
 		"@sveltejs/vite-plugin-svelte": "^6.0.0",
-		"svelte": "^5.0.0",
+		"svelte": "^5.53.6",
 		"vite": "^7.1.11"
 	},
 	"description": "Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).",
